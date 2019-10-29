@@ -1,15 +1,7 @@
-<!-- default file list -->
-*Files to look at*:
-
-* [Form1.cs](./CS/Q264421/Form1.cs) (VB: [Form1.vb](./VB/Q264421/Form1.vb))
-* [MyFilterControl.cs](./CS/Q264421/MyFilterControl.cs) (VB: [MyFilterControl.vb](./VB/Q264421/MyFilterControl.vb))
-* [Program.cs](./CS/Q264421/Program.cs) (VB: [Program.vb](./VB/Q264421/Program.vb))
-<!-- default file list end -->
 # FilterControl - How to remove brackets from the Column element name
 
 
-<p>This example demonstrates how to remove brackets from the Column element name.</p>
-
-<br/>
+**Starting with version 19.1**, you can enable a new visual paint style by setting the static [WindowsFormsSettings.FilterCriteriaDisplayStyle](https://docs.devexpress.com/WindowsForms/DevExpress.XtraEditors.WindowsFormsSettings.FilterCriteriaDisplayStyle) property to Visual.  Filter criteria will be rendered in an easy-to-read format and no brackets will be shown for fields in this mode. 
 
 
+![alt text](dxImage.png)
